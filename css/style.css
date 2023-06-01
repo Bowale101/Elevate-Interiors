@@ -115,3 +115,42 @@ span {
     height: 140px;
     transition: transform 800ms;
 }
+
+.quote {
+    background: #e5e7eb;
+    padding: 120px 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cta {
+    background: #3882f7;
+    color: #fff;
+    margin: 80px 150px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    border-radius: 10px;
+}
+
+.but {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: inherit;
+}
+
+.but:hover {
+    background: #fff;
+    color: #3882f7;
+}
