@@ -81,3 +81,37 @@ span {
     background: transparent;
     border: 1px solid #fff;
 }
+
+.types {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+
+.types-header {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    color: #1F2937;
+    margin-bottom: 80px;
+}
+
+.box img {
+    border: 3px solid #3882f7;
+    border-radius: 8px;
+}
+
+.box img:hover {
+    width: 160px;
+    height: 140px;
+    transition: transform 800ms;
+}
